@@ -62,8 +62,8 @@ ul{
 }
 
 .header-area > .navbar {
-    width: calc(100% - 65px);
-    margin: 0 30px;
+    width: calc(100% - 60px);
+    margin: 0 28px;
     overflow: hidden;
 }
 
@@ -84,18 +84,19 @@ ul{
     display: inline-block;
     position: absolute;
     top: 50%;
-    transform: translateY(-42%);
+    transform: translateY(-48%);
     font-family: "Open Sans", sans-serif;
     color: #425C59;
     font-size: 32px;
     text-transform: none;
     letter-spacing: 1px;
     cursor: pointer;
+    font-weight: 200px;
 }
 .header-area > .navbar > .navbar-brand > span {
     color: #A2BFBD;
     font-size: 40px;
-    letter-spacing: 20px;
+    font-weight: 400px;
 }
 
 
@@ -111,9 +112,9 @@ ul{
     cursor: pointer;
 }
 .header-area > .navbar > .navbar-toggler > img {
-    width: 27px;
-    height: 27px;
-    transform: translateY(19%);
+    width: 25px;
+    height: 25px;
+    transform: translateY(10%);
 }
 
 @media(min-width: 992px) {
