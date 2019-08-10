@@ -62,8 +62,8 @@ ul{
 }
 
 .header-area > .navbar {
-    width: calc(100% - 120px);
-    margin: 0 60px;
+    width: calc(100% - 70px);
+    margin: 0 35px;
     overflow: hidden;
 }
 
@@ -104,8 +104,8 @@ ul{
     cursor: pointer;
 }
 .header-area > .navbar > .navbar-toggler > img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     transform: translateY(19%);
 }
 
@@ -274,7 +274,7 @@ section {
 .title {
     font-size: 30px;
     font-weight: 250;
-    font-family: "NanumSquareOTFLight", sans-serif;
+    font-family: "Nanum Gotic", sans-serif;
     text-align: center;
     letter-spacing: 3px;
     padding-bottom: 50px;
@@ -327,7 +327,7 @@ section {
 .about-area > .picture > .description {
     font-size: 15px;
     font-weight: 600;
-    font-family: 'NanumSquareOTFLight', sans-serif;
+    font-family: "Nanum Gotic", sans-serif;
     color:rgb(155,167,167);
 }
 
@@ -352,7 +352,7 @@ section {
 
 .about-area > .text > .intro {
     padding: 20px 0;
-    font-family: 'NanumSquareOTFLight', sans-serif;
+    font-family: "Nanum Gotic", sans-serif;
     letter-spacing: 1.5px;
     font-weight: 350;
     line-height: 22px;
@@ -441,8 +441,9 @@ section {
     margin: 12px 0 0 0;
     text-align: left;
     border-radius: 45px;
-    /* transition: all 0.5s ease;
-    box-shadow: 0 6px 20px 0 rgba(248, 248, 248, 0.281); */
+    box-shadow: 0 6px 20px 0 rgba(24, 24, 24, 0.5); 
+    /* transition: all 0.5s ease; */
+   
 }
 /*
 .services-area > .container > .item:hover {
@@ -473,7 +474,7 @@ section {
 .services-area > .container > .item > .content {
     font-size: 15px;
     font-weight: 350;
-    font-family: 'NanumSquareOTFLight', sans-serif;
+    font-family: "Nanum Gotic", sans-serif;
     color:  #7C8C8B;
     letter-spacing: 1.5px;
     line-height: 20px;
@@ -487,7 +488,7 @@ section {
 .portfolio-area > .text > .intro {
     font-size: 15px;
     font-weight: 300;
-    font-family: 'NanumSquareOTFLight', sans-serif;
+    font-family: "Nanum Gotic", sans-serif;
     text-align: center;
     letter-spacing: 2px;
     line-height: 20px;
@@ -523,7 +524,7 @@ section {
 
 .footer-area > .info > p {
     font-size: 14px;
-    font-family: 'NanumSquareOTFLight', sans-serif;
+    font-family: "Nanum Gotic", sans-serif;
     letter-spacing: 1px;
     padding: 0 0 11px 0;
     
