@@ -62,8 +62,8 @@ ul{
 }
 
 .header-area > .navbar {
-    width: calc(100% - 70px);
-    margin: 0 35px;
+    width: calc(100% - 65px);
+    margin: 0 30px;
     overflow: hidden;
 }
 
@@ -89,8 +89,15 @@ ul{
     color: #425C59;
     font-size: 32px;
     text-transform: none;
+    letter-spacing: 1px;
     cursor: pointer;
 }
+.header-area > .navbar > .navbar-brand > span {
+    color: #A2BFBD;
+    font-size: 40px;
+    letter-spacing: 20px;
+}
+
 
 .header-area > .navbar > .navbar-toggler *{
     font-size: 32px;
@@ -104,8 +111,8 @@ ul{
     cursor: pointer;
 }
 .header-area > .navbar > .navbar-toggler > img {
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     transform: translateY(19%);
 }
 
@@ -287,6 +294,7 @@ section {
     width: 110px;
     height: 2px;
     margin: 5px auto;
+    border-radius: 1px;
     background-image: linear-gradient(to right, #839997, #DDDDDD);
 }
 
@@ -321,6 +329,7 @@ section {
     margin-top: 7px;
     text-align: center;
     padding: 15px 0;
+    font-weight: 200px;
     color: #425C59;
 }
 
@@ -328,7 +337,7 @@ section {
     font-size: 15px;
     font-weight: 600;
     font-family: "Nanum Gotic", sans-serif;
-    color:rgb(155,167,167);
+    color:#A2BFBD;
 }
 
 .about-area > .text {
@@ -375,7 +384,7 @@ section {
 
 .about-area > .text > ul > li > .info > i {
     margin-top: 1px;
-    color: #425C59;
+    color: #7C8C8B;
 }
 
 /* 
@@ -459,7 +468,7 @@ section {
 
 .services-area > .container > .item > .icon > span > i {
     font-size: 40px;
-    color: #7C8C8B;
+    color: #839997;
 }
 
 .services-area > .container > .item > .service {
@@ -493,6 +502,7 @@ section {
     letter-spacing: 2px;
     line-height: 20px;
     padding: 5px 0 10px 0;
+    color: #696969;
 }
 
 /* REVIEW AREA */
