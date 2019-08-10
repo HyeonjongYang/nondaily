@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        
+        <title>Portfolio-Hyeonjong</title>
+        
+        <!-- icon -->
+        <script src="https://kit.fontawesome.com/b569554fd1.js"></script>
+        
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Heebo:100,270 |Nanum+Gothic:400,700|Nanum+Myeongjo:400,700|Noto+Sans+KR:100,300,400,500,700|Noto+Sans:400,700|Quicksand:100,300,400,500|Raleway:100,200,300,400|Roboto:100,300,400,500|Open+Sans:100&display=swap&subset=korean" rel="stylesheet">
+        <link href="font/NanumSquareOTFLight.otf">
+
+        <!-- user style -->
+        <link rel="stylesheet" href="portfolio.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header class="header-area navbar-fade" id="header">
+            <nav class="navbar">
+                <a class="navbar-brand" id="navbarBrand">Nondaily</a>
+                <a class="navbar-toggler" id="toggleBtn"><img src="img/toggle.png"></a>
+                <div class="navbar-menu" id="menu">
+                    <div class="nav-item"><a class="nav-link" id="navbarAbout">about</a></div>
+                    <div class="nav-item"><a class="nav-link" id="navbarService">service</a></div>
+                    <div class="nav-item"><a class="nav-link" id="navbarPortfolio">portfolio</a></div>
+                    <div class="nav-item"><a class="nav-link" id="navbarReview">review</a></div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="section-container">
+            <div class="welcome-area">
+                <div class="container">
+                    <div class="image-slide fade">
+                        <img src="img/a.JPG">
+                    </div>
+                    <div class="image-slide fade">
+                        <img src="img/b.JPG">
+                    </div>
+                    <div class="image-slide fade">
+                        <img src="img/c.JPG">
+                    </div>
+                    <div class="image-slide fade">
+                        <img src="img/d.JPG">
+                    </div>
+                    
+                    <a class="image-prev" id="imagePrev">&#10094;</a>
+                    <a class="image-next" id="imageNext">&#10095;</a>
+                    
+                    <div class="dots">
+                        <span class="dot" id="firstDot"></span>
+                        <span class="dot" id="secondDot"></span>
+                        <span class="dot" id="thirdDot"></span>
+                        <span class="dot" id="forthDot"></span>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <section class="about-area" id="about" data-aos="fade-up" data-aos-duration="1500">
+                <div class="title">
+                    ABOUT
+                </div>
+                <div class="picture">
+                    <img src="img/profile.jpg">
+                    <div class="name">Hyeonjong Yang </div>
+                    <div class="description"> JUNIOR DEV</div>
+
+                </div>
+                <div class="text">
+                    <div class="intro">
+                        "안녕하세요, 열정을 가지고 끊임없는 성장을 추구하는 개발자 지망생 입니다. 여러 분야에 두루 관심이 많고 재미있는 소규모 프로젝트 위주의 개발을 좋아합니다. 궁금하신 점이 있으시다면 언제든지 편하게 연락주세요."
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="info">
+                                <i class="far fa-calendar-alt"></i> &nbsp;&nbsp;24st September, 1995
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info">
+                                <i class="fas fa-phone"></i> &nbsp;&nbsp;+82 10-3454-4488
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info">
+                                <i class="fa fa-envelope"></i> &nbsp;&nbsp;apinocchio@naver.com
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info">
+                                <i class="fas fa-home"></i> &nbsp;&nbsp;Samildae-ro, Jongro-gu, Seoul, Republic of Korea
+                            </div>
+                        </li>
+                    </ul>
+                    <!--<div class="sns">
+                        <a>
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a>
+                            <i class="fab fa-slack"></i>
+                        </a>
+                    </div> -->
+                </div>
+            </section>
+
+            <section  class="services-area" id="service">
+                <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                    SERVICE
+                </div> 
+                <div class="container"> 
+                    <div class="item" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="icon"><span><i class="fab fa-js-square"></i></span></div>
+                        <div class="service">JAVASCRIPT</div>
+                        <div class="content">자바스크립트는 객체 기반의 스크립트 프로그래밍 언어입니다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로ㅡ램의 내장 객체에도 접근 할 수 있는 기능을 가지고 있습니다 또한 Node.js와 같은 런타임 환경과 같이 서버 사이드 네트워크 프로그래밍에도 사용되고 있습니다. 저는 이러한 자바스크립트를 이용하여 웹페이지를 개발하고 있습니다. </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="icon"><span><i class="fab fa-python"></i></span></div>
+                        <div class="service">PYTHON</div>
+                        <div class="content">파이썬은 귀도 반 로섬(Guido van Rossum)이 개발한 동적 타입의 프로그래밍 언어입니다. 현재 가장 많이 사용되는 언어 중 하나이고, 모바일, 게임 등 여러 분야에서 널리 사용되고 있습니다. 현재 버전 3까지 출시되었습니다. 저는 이러한 파이썬을 이용한 웹 서버 개발 등의 백엔드 개발자를 목표로 하고 있습니다. </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="icon"><span><i class="fab fa-apple"></i></span></div>
+                        <div class="service">IPHONE APP</div>
+                        <div class="content">개발 공부를 하게된 계기는 만들고 싶은 아이폰 앱이 있어서 입니다. Xcode는 macOS, iOS 등 애플 운영체제들의 개발전용 IDE입니다. 현재는 버전 10.2까지 출시되었습니다. Swift를 공부하여 원하는 앱을 구현 하는 것이 저의 단기 목표입니다. </div>
+                    </div>
+                </div>
+
+            </section>        
+            
+            <section class="portfolio-area" id="portfolio">
+                <div class="title" data-aos="fade-up" data-aos-duration="2000">
+                    PORTFOLIO
+                </div>
+                <div class="text">
+                        <div class="intro" data-aos="fade-up" data-aos-duration="1000">Several projects on the drawing board!</div>
+                </div>        
+            </section>
+            
+            <section class="review-area" id="review">
+                <div class="title" data-aos="fade-up" data-aos-duration="2000"> 
+                    CONTACT
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer-area">
+            <div class="sns">
+                <div class="item" id="facebook"><i class="fab fa-facebook-square"></i></div>
+                <div class="item" id="instagram" onclick="location.href='https://www.instagram.com/nondaily'" target="_black">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="item" id="github"><i class="fab fa-github"></i></div>
+                <div class="item" id="slack"><i class="fab fa-slack"></i></div>
+            </div>
+            <div class="info">
+                <p>Copyright ⓒ 2019 Nondaily. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!-- user script -->
+        <script src="portfolio.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
